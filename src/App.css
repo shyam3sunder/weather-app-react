@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 60vmin;
+  pointer-events: none;
+  transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 25px; /* Rounded corners for a smoother look */
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: background 0.3s ease; /* Smooth transition for background */
+}
+
+.App-header:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb); /* Reverse gradient on hover */
+}
+
+.App-link {
+  color: #61dafb;
+  font-weight: bold; /* Bold text */
+  font-size: 1.2rem;
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.App-link:hover {
+  color: #ffcc00; /* Hover effect on link */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
